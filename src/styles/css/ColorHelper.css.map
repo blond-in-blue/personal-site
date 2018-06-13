@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../ColorHelper.scss"
+    ],
+    "names": [],
+    "file": "ColorHelper.css"
+}

@@ -1,0 +1,47 @@
+@import 'ColorHelper';
+@import 'Mixins';
+
+.App {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  // nav links
+  a {
+    @include link();
+    margin-right: 20px;
+  }
+}
+
+// app body
+#Content {
+  padding: 2%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  >div {
+    background-color: #eaeaea;
+    border-radius: 50px;
+    padding: 4%;
+    box-shadow: 0 0 25px #f2f2f2;
+  }
+}
+
+.react-photo-gallery--gallery {
+  img {
+    box-shadow: 0 0 15px #cecece;
+  }
+}
+
+#lightboxBackdrop {
+  img {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  }
+}
+
+img {
+  border-radius: 25px;
+}
