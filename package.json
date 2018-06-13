@@ -2,6 +2,7 @@
   "name": "photo-showcase-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://blond-in-blue.github.io",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "gh-pages": "^1.2.0",

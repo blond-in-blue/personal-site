@@ -6,7 +6,7 @@ import Measure from 'react-measure'
 
 
 /**
- * Contains photo showcase and basic information.
+ * Score Counter app info.
  *
  * @class Home
  * @extends {Component}
