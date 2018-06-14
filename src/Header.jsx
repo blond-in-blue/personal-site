@@ -36,13 +36,13 @@ class Header extends Component {
       <div>
         <Navbar light expand="md">
           <NavbarBrand className="mx-auto" style={divStyle}>
-            <Link to="/home" className='navbar-brand'>
+            <Link to="/github-io/home" className='navbar-brand'>
               Hunter Holder
             </Link>
           </NavbarBrand>
           <Nav className="mx-auto" bsstyle="pills">
-            <NavLink to="/home">score counter</NavLink>
-            <NavLink to="/about">about</NavLink>
+            <NavLink to="/github-io/home">score counter</NavLink>
+            <NavLink to="/github-io/about">about</NavLink>
           </Nav>
         </Navbar>
       </div>

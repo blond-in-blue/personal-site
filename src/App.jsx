@@ -20,9 +20,9 @@ class App extends Component {
             <Header/>
             <div id="Content">
               {/* default page is /home */}
-              <Redirect from="/" to="home"/>
-              <Route path="/home" component={Home}/>
-              <Route path="/about" component={About}/>
+              <Redirect from="/" to="/github-io/home"/>
+              <Route path="/github-io/home" component={Home}/>
+              <Route path="/github-io/about" component={About}/>
             </div>
           </div>
         </BrowserRouter>
