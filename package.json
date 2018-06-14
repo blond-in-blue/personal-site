@@ -40,7 +40,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "description": "my personal github site",
   "main": "index.js",
   "devDependencies": {
     "eslint": "^4.11.0",
