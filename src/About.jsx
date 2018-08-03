@@ -19,7 +19,7 @@ const favorites = [
 class About extends Component {
   render() {
     return (
-      <div>
+      <div class='content'>
         <h1>about</h1>
         <p>Well, this is the about page. There's really not much to it, so here are my favorite TV shows...</p>
         <ol>

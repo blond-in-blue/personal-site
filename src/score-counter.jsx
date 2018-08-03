@@ -8,10 +8,10 @@ import Measure from 'react-measure'
 /**
  * Score Counter app info.
  *
- * @class Home
+ * @class ScoreCounter
  * @extends {Component}
  */
-class Home extends Component {
+class ScoreCounter extends Component {
   constructor() {
     super()
     this.state = { 
@@ -51,7 +51,7 @@ class Home extends Component {
   render() {
     const width = this.state.dimensions.width
     return (
-      <div>
+      <div class='content'>
         <h1>score counter</h1>
         <p>this is a very simple score counter, with only 3 functions:</p>
         <ul>
@@ -100,4 +100,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default ScoreCounter

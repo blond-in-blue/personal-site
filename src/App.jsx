@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import './styles/css/App.css'
 import {BrowserRouter, Route, Redirect} from 'react-router-dom'
 import Header from './Header'
-import Home from './Home'
+import ScoreCounter from './score-counter'
 import About from './About'
 
 /**
@@ -18,10 +18,10 @@ class App extends Component {
         <BrowserRouter>
           <div className="App">
             <Header/>
-            <div id="Content">
-              {/* default page is /home */}
-              <Redirect from="/" to="/github-io/home"/>
-              <Route path="/github-io/home" component={Home}/>
+            <div class="content-wrapper">
+              {/* default page is /score-counter */}
+              <Redirect from="/" to="/github-io/score-counter"/>
+              <Route path="/github-io/score-counter" component={ScoreCounter}/>
               <Route path="/github-io/about" component={About}/>
             </div>
           </div>
