@@ -42,7 +42,7 @@ class Header extends Component {
           </NavbarBrand>
           <Nav className="mx-auto" bsstyle="pills">
             <NavLink to="/github-io/score-counter">score counter</NavLink>
-            <NavLink to="/github-io/about">about</NavLink>
+            <NavLink to="/github-io/about">about me</NavLink>
           </Nav>
         </Navbar>
       </div>

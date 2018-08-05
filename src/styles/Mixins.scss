@@ -1,4 +1,6 @@
-@mixin link() {
+@import "./ColorHelper.scss";
+
+%link {
   color: $blue;
   text-decoration: none;  
   padding-left: 5px;
