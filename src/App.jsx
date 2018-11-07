@@ -20,7 +20,7 @@ class App extends Component {
             <Header/>
             <div class="content-wrapper">
               {/* default page is /score-counter */}
-              <Redirect from="/" to="/github-io/score-counter"/>
+              <Redirect from="/" to="/github-io/score-counter" exact="true"/>
               <Route path="/github-io/score-counter" component={ScoreCounter}/>
               <Route path="/github-io/about" component={About}/>
             </div>

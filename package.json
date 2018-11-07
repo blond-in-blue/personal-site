@@ -17,6 +17,7 @@
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.2.0",
     "react-images": "^0.5.17",
+    "react-jss": "^8.6.1",
     "react-measure": "^2.0.2",
     "react-pdf": "^3.0.5",
     "react-photo-gallery": "^6.0.22",
