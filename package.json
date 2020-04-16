@@ -9,7 +9,7 @@
     "jest-cli": "^21.2.1",
     "jquery": "^3.3.1",
     "node-sass-chokidar": "0.0.3",
-    "npm": "^5.7.1",
+    "npm": "^6.13.4",
     "npm-run-all": "^4.1.2",
     "photoswipe": "^4.1.2",
     "popper.js": "^1.12.9",
